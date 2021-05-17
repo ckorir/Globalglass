@@ -345,6 +345,9 @@ footer .rights {
     right: 5%;
     width: 28em;
   }
+  .snippet .snip {
+    padding: 120px;
+  }
   .projectscontainer .project {
     padding: 100px;
   }
