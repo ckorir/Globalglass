@@ -355,6 +355,12 @@ footer .rights {
   .projectscontainer .project:nth-child(10) {
     display: none;
   }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 900px) {
