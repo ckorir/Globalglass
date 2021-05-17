@@ -364,10 +364,19 @@ footer{
 
     .projectscontainer{
         .project{
-            padding: 138px;
+            padding: 142px;
         }
     }
 
-    
+}
+
+@media only screen and (min-width: 1200px){
+    .projecttitle{
+        padding-top: 50px;
+    }
+    .projectscontainer{
+        margin-top: 45px;
+        padding: 0px 90px;
+    }
 }
 
