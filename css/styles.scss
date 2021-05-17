@@ -1,0 +1,348 @@
+@import './globals';
+@import './reset';
+@import './variables';
+
+
+.navcontainer{
+    display: flex;
+    padding: 20px 30px;
+    background-color: #142C5F;
+
+    .logo{
+        margin-right: auto;
+    }
+
+    .links{
+        display: none;
+        ul{
+            display: flex;
+        }
+    }
+}
+
+.banner{
+   // background-image: url('../img/banner1.jpg');
+    background: linear-gradient(rgba(2, 15, 110, 0.445),rgba(0, 0, 0, 0.575)),url('../img/banner1.jpg');
+    background-position: 50% 70%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 32% 0%;
+    border: none;
+    max-height: 500px;
+
+    .bannertext{
+        position: relative;
+        left: 45%;
+        top: -1em;
+        color: white;
+        //float: right;
+        width: 50%;
+      //  font-size: .8em;
+
+        h1{
+            margin-bottom: 15%;
+        }
+        p{
+            line-height: 1;
+            letter-spacing: 2px;
+        }
+       
+    }
+
+
+}
+
+hr{
+   // padding: 2%;
+    width: 96%;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(65, 63, 63);
+    border:  thin 1px;
+}
+
+hr:nth-child(2){
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    margin: 5% 20%; 
+    justify-content: center;
+    padding-bottom: 5%;
+    transition: 3s;
+
+    h1{
+        text-transform: uppercase;
+        margin-bottom: 5%;
+        text-decoration: underline;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    
+    
+    ul{
+        transition: 3s;
+       // display: none;
+        opacity: 0;
+    }
+
+   .products{
+       transition: 4s;
+       cursor: pointer;
+       margin-right: 30%;
+       margin-left: 5%;
+       margin-bottom: -24em;
+   }
+
+   .services{
+    transition: 4s;
+    margin-bottom: -24em;
+   }
+
+   .products:hover{
+    transition: 1s;
+    margin-bottom: 0;
+
+        ul{
+          //  transition: 3s;           
+            opacity: 1;
+            display: block;
+        }
+   }
+
+   .services:hover{
+    margin-bottom: 0em;
+    transition: 1s;
+        ul{
+            transition: 3s;
+            display: block;
+            opacity: 1;
+        }
+   }
+ 
+}
+
+.work{
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.projimg{
+    background-image: url('../img/hse1.jpg');
+    background-position: 50% 40%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20%;
+    width: 80%;
+    margin: auto;
+    border-radius: 1em;
+    border: none;
+    max-width: 700px;
+}
+
+.projtext{
+    position: relative;
+    top: -3em;
+    padding: 10% 5%;
+    width: 60%;
+    margin: auto;
+    border-radius: 1.5em;
+    background-color: #E6DC50;
+
+    h1{
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    p{
+        font-size: .8em;
+    }
+}
+
+.snippet{
+    display: flex;
+    justify-content: center;
+
+    .snip{
+        margin: 1%;
+        padding: 14%;
+        border: none;
+        margin-bottom: 8%;
+    }
+
+    .snip:nth-child(1){
+        background-image: url('../img/hse1.jpg');
+        background-size: 100%;
+    }
+    .snip:nth-child(2){
+        background-image: url('../img/hse4.jpg');
+        background-size: 100%;
+    }
+    .snip:nth-child(3){
+        background-image: url('../img/hse5.jpg');
+        background-size: 100%;
+    }
+   
+}
+
+.more{
+    text-align: center;
+    margin-bottom: 5%;
+    text-decoration: underline;
+
+    a{
+        color: #00052E;
+    }
+}
+
+footer{
+   // display: flex;
+    text-align: center;
+    padding: 2% 5%;
+    background-color: #00052E;
+    color: white;
+    font-size: 12px;
+
+    p{
+        line-height: 1.5;
+    }
+
+    a{
+        color: white;
+    }
+
+    .rights{
+        margin-right: auto;
+    }
+}
+
+.projecttitle{
+    text-align: center;
+    padding-top:8%;
+}
+
+.projectscontainer{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .project{
+        padding: 80px;
+        margin: 1%;
+        background-color: blue;
+    }
+
+    .project:nth-child(1){
+        background-image: url('../img/frame1.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(2){
+        background-image: url('../img/glass1.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(3){
+        background-image: url('../img/hse2.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(4){
+        background-image: url('../img/inside2.jpg');
+        background-size: 100%;
+        transform: rotate(90deg);
+    }
+    .project:nth-child(5){
+        background-image: url('../img/inside3.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(6){
+        background-image: url('../img/frame2.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(7){
+        background-image: url('../img/stairs1.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(8){
+        background-image: url('../img/appartment.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(9){
+        background-image: url('../img/inside5.jpg');
+        background-size: 100%;
+    }
+    .project:nth-child(10){
+        background-image: url('../img/stairs2.jpg');
+        background-size: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 750px){
+    .banner{
+        .bannertext{
+            position: relative;
+            top: -6em;
+        }
+    }
+
+    .showcase{
+        display: flex;
+        padding: 8%;
+
+       .projimg{
+            padding: 130px 70px;
+            position: relative;
+            left: 8%;
+            top: -3em;
+        } 
+
+        .projtext{
+            padding: 120px 20px;
+            position: relative;
+            right: 5%;
+            width: 28em;
+        }
+    }
+
+    .projectscontainer{
+        .project{
+            padding: 100px;
+        }
+
+        .project:nth-child(10){
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .banner{
+        padding: 190px 0px;
+        background-position: 50% 50%;
+        background-size: 100%;
+
+        .bannertext{
+            top: -3em;
+            width: 40%;
+        }
+    }
+
+    .showcase{
+       .projimg{
+            left: 10%;
+        } 
+
+        .projtext{
+            right: 10%;
+        }
+    }
+
+    
+}
+

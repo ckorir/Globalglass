@@ -1,0 +1,373 @@
+h1 {
+  font-size: 1.6em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 30px;
+  background-color: #142C5F;
+}
+
+.navcontainer .logo {
+  margin-right: auto;
+}
+
+.navcontainer .links {
+  display: none;
+}
+
+.navcontainer .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 15, 110, 0.445)), to(rgba(0, 0, 0, 0.575))), url("../img/banner1.jpg");
+  background: linear-gradient(rgba(2, 15, 110, 0.445), rgba(0, 0, 0, 0.575)), url("../img/banner1.jpg");
+  background-position: 50% 70%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 32% 0%;
+  border: none;
+  max-height: 500px;
+}
+
+.banner .bannertext {
+  position: relative;
+  left: 45%;
+  top: -1em;
+  color: white;
+  width: 50%;
+}
+
+.banner .bannertext h1 {
+  margin-bottom: 15%;
+}
+
+.banner .bannertext p {
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+hr {
+  width: 96%;
+  margin: auto;
+  margin-top: 20px;
+  color: #413f3f;
+  border: thin 1px;
+}
+
+hr:nth-child(2) {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 5%;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5%;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.card h1 {
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.card ul {
+  -webkit-transition: 3s;
+  transition: 3s;
+  opacity: 0;
+}
+
+.card .products {
+  -webkit-transition: 4s;
+  transition: 4s;
+  cursor: pointer;
+  margin-right: 30%;
+  margin-left: 5%;
+  margin-bottom: -24em;
+}
+
+.card .services {
+  -webkit-transition: 4s;
+  transition: 4s;
+  margin-bottom: -24em;
+}
+
+.card .products:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-bottom: 0;
+}
+
+.card .products:hover ul {
+  opacity: 1;
+  display: block;
+}
+
+.card .services:hover {
+  margin-bottom: 0em;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.card .services:hover ul {
+  -webkit-transition: 3s;
+  transition: 3s;
+  display: block;
+  opacity: 1;
+}
+
+.work {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projimg {
+  background-image: url("../img/hse1.jpg");
+  background-position: 50% 40%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20%;
+  width: 80%;
+  margin: auto;
+  border-radius: 1em;
+  border: none;
+  max-width: 700px;
+}
+
+.projtext {
+  position: relative;
+  top: -3em;
+  padding: 10% 5%;
+  width: 60%;
+  margin: auto;
+  border-radius: 1.5em;
+  background-color: #E6DC50;
+}
+
+.projtext h1 {
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.projtext p {
+  font-size: .8em;
+}
+
+.snippet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.snippet .snip {
+  margin: 1%;
+  padding: 14%;
+  border: none;
+  margin-bottom: 8%;
+}
+
+.snippet .snip:nth-child(1) {
+  background-image: url("../img/hse1.jpg");
+  background-size: 100%;
+}
+
+.snippet .snip:nth-child(2) {
+  background-image: url("../img/hse4.jpg");
+  background-size: 100%;
+}
+
+.snippet .snip:nth-child(3) {
+  background-image: url("../img/hse5.jpg");
+  background-size: 100%;
+}
+
+.more {
+  text-align: center;
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+
+.more a {
+  color: #00052E;
+}
+
+footer {
+  text-align: center;
+  padding: 2% 5%;
+  background-color: #00052E;
+  color: white;
+  font-size: 12px;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+footer a {
+  color: white;
+}
+
+footer .rights {
+  margin-right: auto;
+}
+
+.projecttitle {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.projectscontainer {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projectscontainer .project {
+  padding: 80px;
+  margin: 1%;
+  background-color: blue;
+}
+
+.projectscontainer .project:nth-child(1) {
+  background-image: url("../img/frame1.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(2) {
+  background-image: url("../img/glass1.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(3) {
+  background-image: url("../img/hse2.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(4) {
+  background-image: url("../img/inside2.jpg");
+  background-size: 100%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.projectscontainer .project:nth-child(5) {
+  background-image: url("../img/inside3.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(6) {
+  background-image: url("../img/frame2.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(7) {
+  background-image: url("../img/stairs1.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(8) {
+  background-image: url("../img/appartment.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(9) {
+  background-image: url("../img/inside5.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project:nth-child(10) {
+  background-image: url("../img/stairs2.jpg");
+  background-size: 100%;
+}
+
+@media only screen and (min-width: 750px) {
+  .banner .bannertext {
+    position: relative;
+    top: -6em;
+  }
+  .showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8%;
+  }
+  .showcase .projimg {
+    padding: 130px 70px;
+    position: relative;
+    left: 8%;
+    top: -3em;
+  }
+  .showcase .projtext {
+    padding: 120px 20px;
+    position: relative;
+    right: 5%;
+    width: 28em;
+  }
+  .projectscontainer .project {
+    padding: 100px;
+  }
+  .projectscontainer .project:nth-child(10) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .banner {
+    padding: 190px 0px;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  .banner .bannertext {
+    top: -3em;
+    width: 40%;
+  }
+  .showcase .projimg {
+    left: 10%;
+  }
+  .showcase .projtext {
+    right: 10%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
