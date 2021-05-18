@@ -440,8 +440,10 @@ footer .rights {
   .contactbanner {
     display: block;
     padding: 220px;
-    background-image: url("../img/stairs2.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 15, 110, 0.445)), to(rgba(0, 0, 0, 0.575))), url("../img/hse2.jpg");
+    background: linear-gradient(rgba(2, 15, 110, 0.445), rgba(0, 0, 0, 0.575)), url("../img/hse2.jpg");
     background-size: 100%;
+    background-position: 90px;
   }
   .contactsection {
     -webkit-box-orient: horizontal;
@@ -476,6 +478,13 @@ footer .rights {
   .contactbanner {
     padding: 280px;
   }
+  .contactsection .contactinfo {
+    position: relative;
+    padding: 276px 40px;
+  }
+  .contactsection .contactinfo h1 {
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -485,6 +494,15 @@ footer .rights {
   .projectscontainer {
     margin-top: 45px;
     padding: 0px 90px;
+  }
+  .contactbanner {
+    padding: 200px;
+  }
+  .contactsection .contactinfo {
+    padding: 140px;
+  }
+  .contactsection .contactform {
+    padding: 50px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

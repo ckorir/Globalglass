@@ -407,8 +407,9 @@ footer{
     .contactbanner{
         display: block;
         padding: 220px;
-        background-image: url('../img/stairs2.jpg');
+        background: linear-gradient(rgba(2, 15, 110, 0.445),rgba(0, 0, 0, 0.575)),url('../img/hse2.jpg');
         background-size: 100%;
+        background-position: 90px;
     }
 
     .contactsection{
@@ -454,6 +455,19 @@ footer{
         padding: 280px;
     }
 
+    .contactsection{
+
+        .contactinfo{
+            position: relative;
+            padding: 276px 40px;
+            h1{
+                position: relative;
+               // margin-top: 10px;
+            }
+
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1200px){
@@ -463,6 +477,19 @@ footer{
     .projectscontainer{
         margin-top: 45px;
         padding: 0px 90px;
+    }
+
+    .contactbanner{
+        padding: 200px;
+    }
+
+    .contactsection{
+        .contactinfo{
+            padding: 140px;
+        }
+        .contactform{
+            padding: 50px;
+        }
     }
 }
 
