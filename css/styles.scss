@@ -8,14 +8,44 @@
     padding: 20px 30px;
     background-color: #142C5F;
 
+    .close{
+        font-size: 2rem;
+        display: none;
+    }
+
     .logo{
         margin-right: auto;
     }
 
     .links{
         display: none;
+
+        a{
+            color: #E6DC50;
+            transition: .5s;
+        }
+
+        a:hover{
+            color: white;
+        }
+
         ul{
-            display: flex;
+            //display: flex;
+            z-index: 1;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 3.5em;
+            width: 180px;
+            height: 200px;
+            text-align: center;
+            background-color: rgba(76, 76, 214, 0.945);
+            font-size: 20px;
+           // margin-right: 10px;
+
+            li{
+                margin: 28px 30px;
+            }
         }
     }
 }
@@ -340,6 +370,39 @@ footer{
 }
 
 @media only screen and (min-width: 750px){
+    .navcontainer{
+        .burger{
+            display: none;
+        }
+
+        .close{
+            display: none;
+        }
+       
+        .links{
+            display: block;
+
+            ul{
+                display: flex;
+                position: relative;
+                top: 0em;
+                width: 0em;
+                height: 0em;
+                right: 19em;
+                font-size: 18px;
+
+                li{
+                    position: relative;
+                    margin: 0px 30px;
+                }
+            }
+
+        }
+        
+        .burger{
+            display: none;
+        }
+    }
     .banner{
         .bannertext{
             position: relative;
@@ -376,7 +439,7 @@ footer{
 
     .projectscontainer{
         .project{
-            padding: 100px;
+            padding: 103px;
         }
 
         .project:nth-child(10){
@@ -406,7 +469,7 @@ footer{
 
     .contactbanner{
         display: block;
-        padding: 220px;
+        padding: 225px;
         background: linear-gradient(rgba(2, 15, 110, 0.445),rgba(0, 0, 0, 0.575)),url('../img/hse2.jpg');
         background-size: 100%;
         background-position: 90px;
@@ -447,12 +510,12 @@ footer{
 
     .projectscontainer{
         .project{
-            padding: 142px;
+            padding: 146px;
         }
     }
 
     .contactbanner{
-        padding: 280px;
+        padding: 285px;
     }
 
     .contactsection{
