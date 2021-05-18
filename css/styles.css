@@ -53,12 +53,14 @@ ul {
   display: block;
   position: absolute;
   right: 0;
-  top: 3.5em;
+  top: 3.8em;
   width: 180px;
-  height: 200px;
+  height: 280px;
   text-align: center;
   background-color: rgba(76, 76, 214, 0.945);
   font-size: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
 }
 
 .navcontainer .links ul li {

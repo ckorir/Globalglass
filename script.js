@@ -13,7 +13,6 @@ function show(){
 
 function close(){ 
     items.style.display = 'none';
-    items.style.top = '-100%'
-    opennav.style.display = 'block';
+    opennav.style.display = 'initial';
     closenav.style.display = 'none'
 }
