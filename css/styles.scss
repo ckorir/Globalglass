@@ -206,7 +206,7 @@ footer{
     padding: 2% 5%;
     background-color: #00052E;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 
     p{
         line-height: 1.5;
@@ -283,6 +283,62 @@ footer{
 
 }
 
+.contactbanner{
+    display: none;
+}
+
+.contactsection{
+    display: flex;
+    flex-direction: column;
+    
+    .contactinfo{
+       
+        text-align: center;
+        flex-basis: 50%;
+        padding: 90px 40px;
+        background-color: #E6DC50;
+        h1{
+            margin-bottom: 25px;
+        }
+        p{
+            line-height: 1.5;
+        }
+    }
+
+    .contactform{
+        padding: 50px 10px;
+        text-align: center;
+        margin: auto;
+
+        form{
+            input,textarea{
+                text-align: left;
+                margin: 20px;
+                padding: 10px;
+                width: 310px;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.288);
+            }
+
+            textarea{
+                resize: none;
+                padding: 80px 10px;
+                padding-top: 15px;
+
+            }
+
+            .send{
+                padding: 15px;
+                width: 13em;
+                border: none;
+                border-radius: 30px;
+                color: white;
+                background-color: #142C5F;
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: 750px){
     .banner{
         .bannertext{
@@ -331,6 +387,32 @@ footer{
     footer{
         display: flex;
         text-align: left;
+
+        .rights{
+            display: flex;
+            
+            p:nth-child(2){
+                margin-left:30px;
+            }
+        }
+
+        .contact{
+            display: flex;
+            p:nth-child(2){
+                margin-left:30px;
+            }
+        }
+    }
+
+    .contactbanner{
+        display: block;
+        padding: 220px;
+        background-image: url('../img/stairs2.jpg');
+        background-size: 100%;
+    }
+
+    .contactsection{
+        flex-direction: row;
     }
 }
 
@@ -366,6 +448,10 @@ footer{
         .project{
             padding: 142px;
         }
+    }
+
+    .contactbanner{
+        padding: 280px;
     }
 
 }
