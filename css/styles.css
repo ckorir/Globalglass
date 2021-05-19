@@ -97,7 +97,7 @@ ul {
 .banner .bannertext {
   position: relative;
   left: 45%;
-  top: -1em;
+  top: -2.7em;
   color: white;
   width: 50%;
 }
@@ -107,7 +107,7 @@ ul {
 }
 
 .banner .bannertext p {
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: 2px;
 }
 
@@ -218,6 +218,7 @@ hr:nth-child(2) {
   margin: auto;
   border-radius: 1.5em;
   background-color: #E6DC50;
+  text-align: center;
 }
 
 .projtext h1 {
