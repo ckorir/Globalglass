@@ -21,21 +21,36 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 30px;
+  padding: 2px 30px;
   background-color: #142C5F;
 }
 
 .navcontainer .close {
-  font-size: 2rem;
+  font-size: 2.3rem;
+  position: relative;
+  top: 10px;
   display: none;
   cursor: pointer;
+  color: yellow;
 }
 
 .navcontainer .logo {
   margin-right: auto;
+  margin-left: 5px;
+}
+
+.navcontainer .logo .ggs {
+  width: 70px;
+}
+
+.navcontainer .burger {
+  position: relative;
+  top: 20px;
+  height: 30px;
 }
 
 .navcontainer .links {
+  position: relative;
   display: none;
 }
 
@@ -420,6 +435,7 @@ footer .rights {
   }
   .navcontainer .links {
     display: block;
+    top: 25px;
   }
   .navcontainer .links ul {
     display: -webkit-box;

@@ -5,20 +5,36 @@
 
 .navcontainer{
     display: flex;
-    padding: 20px 30px;
+    padding: 2px 30px;
     background-color: #142C5F;
 
     .close{
-        font-size: 2rem;
+        font-size: 2.3rem;
+        position: relative;
+        top: 10px;
         display: none;
         cursor: pointer;
+        color: yellow;
     }
 
     .logo{
         margin-right: auto;
+        margin-left: 5px;
+
+        .ggs{
+            width: 70px;
+        }
+    }
+
+    .burger{
+        position: relative;
+        top: 20px;
+        height: 30px;
     }
 
     .links{
+        position: relative;
+       // top: 25px;
         display: none;
 
         a{
@@ -383,6 +399,7 @@ footer{
        
         .links{
             display: block;
+            top: 25px;
 
             ul{
                 display: flex;
