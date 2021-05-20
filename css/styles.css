@@ -659,5 +659,8 @@ footer .rights {
   .projectscontainer .project, .projectscontainer .project2 {
     padding: 70px;
   }
+  .contactsection .contactform form input, .contactsection .contactform form textarea {
+    width: 270px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

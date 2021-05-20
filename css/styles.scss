@@ -680,6 +680,18 @@ footer{
             padding: 70px;
         }
     }
+
+    .contactsection{
+        .contactform{
+           // padding: 10px;
+
+            form{
+                input,textarea{
+                    width: 270px;
+                }
+            }
+        }
+    }
 }
 
 
