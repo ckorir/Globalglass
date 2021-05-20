@@ -282,55 +282,108 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
 
-    .project{
+    .project,.project2{
         padding: 80px;
         margin: 1%;
-        background-color: blue;
+      //  background-color: blue;
     }
 
     .project:nth-child(1){
-        background-image: url('../img/frame1.jpg');
+        background-image: url('../img/glass3.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(1){
+        background-image: url('../img/hse3.jpg');
+        background-size: 100%;
+    }
+
     .project:nth-child(2){
         background-image: url('../img/glass1.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(2){
+        background-image: url('../img/inside4.jpg');
+        background-size: 135%;
+
+    }
+
     .project:nth-child(3){
         background-image: url('../img/hse2.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(3){
+        background-image: url('../img/banner2.jpg');
+        background-size: 100%;
+    }
+
     .project:nth-child(4){
         background-image: url('../img/inside2.jpg');
         background-size: 100%;
         transform: rotate(90deg);
     }
+    .project2:nth-child(4){
+        background-image: url('../img/sink1.jpg');
+        background-size: 100%;
+        //transform: rotate(90deg);
+    }
+
     .project:nth-child(5){
         background-image: url('../img/inside3.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(5){
+        background-image: url('../img/kitchen.jpg');
+        background-size: 135%;
+    }
+
     .project:nth-child(6){
         background-image: url('../img/frame2.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(6){
+        background-image: url('../img/closet.jpg');
+        background-size: 100%;
+    }
+
     .project:nth-child(7){
         background-image: url('../img/stairs1.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(7){
+        background-image: url('../img/shower.jpg');
+        background-size: 100%;
+    }
+
     .project:nth-child(8){
         background-image: url('../img/appartment.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(8){
+        background-image: url('../img/frame3.jpg');
+        background-size: 100%;
+    }
+
     .project:nth-child(9){
         background-image: url('../img/inside5.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(9){
+        background-image: url('../img/hse7.jpg');
+        background-size: 135%;
+    }
+
     .project:nth-child(10){
         background-image: url('../img/stairs2.jpg');
         background-size: 100%;
     }
+    .project2:nth-child(10){
+        background-image: url('../img/frame4.jpg');
+        background-size: 100%;
+    }
+
 
 }
+
 
 .contactbanner{
     display: none;
@@ -383,6 +436,8 @@ footer{
                 border-radius: 30px;
                 color: white;
                 background-color: #142C5F;
+                text-align: center;
+                text-transform: uppercase;
             }
         }
     }
@@ -458,11 +513,11 @@ footer{
     }
 
     .projectscontainer{
-        .project{
+        .project,.project2{
             padding: 103px;
         }
 
-        .project:nth-child(10){
+        .project:nth-child(10),.project2:nth-child(10){
             display: none;
         }
     }
@@ -575,4 +630,56 @@ footer{
         }
     }
 }
+
+@media only screen and (max-width: 360px){
+
+    .navcontainer{
+        .logo{
+            .ggs{
+                width: 50px;
+            }
+        }
+        
+        .burger{
+            height: 25px;
+            top: 15px;
+        }
+
+    }
+
+    .banner{
+        padding: 72px 0px;
+
+        .bannertext{
+            font-size: 12px;
+        }
+    }
+
+    .card{
+        h1{
+            font-size: 16px;
+        }
+    }
+
+    .showcase{
+        .projtext{
+            h1{
+                font-size: 22px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .projecttitle{
+        font-size: 22px;
+    }
+    .projectscontainer{
+        .project,.project2{
+            padding: 70px;
+        }
+    }
+}
+
 
