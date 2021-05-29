@@ -694,12 +694,21 @@ footer .rights {
 }
 
 @media only screen and (max-width: 360px) {
+  .navcontainer .logo {
+    margin-left: -3px;
+  }
   .navcontainer .logo .ggs {
-    width: 50px;
+    width: 45px;
+  }
+  .navcontainer .close {
+    top: -5px;
   }
   .navcontainer .burger {
-    height: 25px;
+    height: 22px;
     top: 15px;
+  }
+  .navcontainer .links ul {
+    top: 2.5em;
   }
   .banner {
     padding: 72px 0px;
