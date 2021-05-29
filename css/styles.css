@@ -309,7 +309,7 @@ footer .rights {
           justify-content: center;
 }
 
-.projectscontainer .project, .projectscontainer .project2 {
+.projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
   padding: 80px;
   margin: 1%;
 }
@@ -324,6 +324,11 @@ footer .rights {
   background-size: 100%;
 }
 
+.projectscontainer .project3:nth-child(1) {
+  background-image: url("../img/hse8.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(2) {
   background-image: url("../img/glass1.jpg");
   background-size: 100%;
@@ -334,6 +339,11 @@ footer .rights {
   background-size: 135%;
 }
 
+.projectscontainer .project3:nth-child(2) {
+  background-image: url("../img/hse9.JPG");
+  background-size: 135%;
+}
+
 .projectscontainer .project:nth-child(3) {
   background-image: url("../img/hse2.jpg");
   background-size: 100%;
@@ -341,6 +351,11 @@ footer .rights {
 
 .projectscontainer .project2:nth-child(3) {
   background-image: url("../img/banner2.jpg");
+  background-size: 100%;
+}
+
+.projectscontainer .project3:nth-child(3) {
+  background-image: url("../img/frame5.JPG");
   background-size: 100%;
 }
 
@@ -356,6 +371,11 @@ footer .rights {
   background-size: 100%;
 }
 
+.projectscontainer .project3:nth-child(4) {
+  background-image: url("../img/hse10.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(5) {
   background-image: url("../img/inside3.jpg");
   background-size: 100%;
@@ -366,6 +386,11 @@ footer .rights {
   background-size: 135%;
 }
 
+.projectscontainer .project3:nth-child(5) {
+  background-image: url("../img/partials.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(6) {
   background-image: url("../img/frame2.jpg");
   background-size: 100%;
@@ -373,6 +398,11 @@ footer .rights {
 
 .projectscontainer .project2:nth-child(6) {
   background-image: url("../img/closet.JPG");
+  background-size: 100%;
+}
+
+.projectscontainer .project3:nth-child(6) {
+  background-image: url("../img/truck.JPG");
   background-size: 100%;
 }
 
@@ -386,6 +416,11 @@ footer .rights {
   background-size: 100%;
 }
 
+.projectscontainer .project3:nth-child(7) {
+  background-image: url("../img/blackfrm.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(8) {
   background-image: url("../img/appartment.jpg");
   background-size: 100%;
@@ -393,6 +428,11 @@ footer .rights {
 
 .projectscontainer .project2:nth-child(8) {
   background-image: url("../img/frame3.JPG");
+  background-size: 100%;
+}
+
+.projectscontainer .project3:nth-child(8) {
+  background-image: url("../img/hse11.JPG");
   background-size: 100%;
 }
 
@@ -406,6 +446,11 @@ footer .rights {
   background-size: 135%;
 }
 
+.projectscontainer .project3:nth-child(9) {
+  background-image: url("../img/hse12.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(10) {
   background-image: url("../img/stairs2.jpg");
   background-size: 100%;
@@ -414,6 +459,24 @@ footer .rights {
 .projectscontainer .project2:nth-child(10) {
   background-image: url("../img/frame4.JPG");
   background-size: 100%;
+}
+
+.projectscontainer .project3:nth-child(10) {
+  background-image: url("../img/blackfrm2.JPG");
+  background-size: 100%;
+}
+
+.pageselector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pageselector p {
+  margin-left: 20px;
 }
 
 .contactbanner {
@@ -533,10 +596,10 @@ footer .rights {
     padding: 100px;
     margin-bottom: 45px;
   }
-  .projectscontainer .project, .projectscontainer .project2 {
+  .projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
     padding: 103px;
   }
-  .projectscontainer .project:nth-child(10), .projectscontainer .project2:nth-child(10) {
+  .projectscontainer .project:nth-child(10), .projectscontainer .project2:nth-child(10), .projectscontainer .project3:nth-child(10) {
     display: none;
   }
   footer {
@@ -596,7 +659,7 @@ footer .rights {
   .snippet .snip {
     padding: 120px;
   }
-  .projectscontainer .project {
+  .projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
     padding: 146px;
   }
   .contactbanner {
@@ -656,7 +719,7 @@ footer .rights {
   .projecttitle {
     font-size: 22px;
   }
-  .projectscontainer .project, .projectscontainer .project2 {
+  .projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
     padding: 70px;
   }
   .contactsection .contactform form input, .contactsection .contactform form textarea {
