@@ -309,7 +309,7 @@ footer .rights {
           justify-content: center;
 }
 
-.projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
+.projectscontainer .allp {
   padding: 80px;
   margin: 1%;
 }
@@ -329,6 +329,11 @@ footer .rights {
   background-size: 100%;
 }
 
+.projectscontainer .project4:nth-child(1) {
+  background-image: url("../img/frame1.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(2) {
   background-image: url("../img/glass1.jpg");
   background-size: 100%;
@@ -344,6 +349,11 @@ footer .rights {
   background-size: 135%;
 }
 
+.projectscontainer .project4:nth-child(2) {
+  background-image: url("../img/glass2.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(3) {
   background-image: url("../img/hse2.jpg");
   background-size: 100%;
@@ -356,6 +366,11 @@ footer .rights {
 
 .projectscontainer .project3:nth-child(3) {
   background-image: url("../img/frame5.JPG");
+  background-size: 100%;
+}
+
+.projectscontainer .project4:nth-child(3) {
+  background-image: url("../img/hse2.2.JPG");
   background-size: 100%;
 }
 
@@ -376,6 +391,11 @@ footer .rights {
   background-size: 100%;
 }
 
+.projectscontainer .project4:nth-child(4) {
+  background-image: url("../img/hse6.2.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(5) {
   background-image: url("../img/inside3.jpg");
   background-size: 100%;
@@ -389,6 +409,11 @@ footer .rights {
 .projectscontainer .project3:nth-child(5) {
   background-image: url("../img/partials.JPG");
   background-size: 100%;
+}
+
+.projectscontainer .project4:nth-child(5) {
+  background-image: url("../img/inside1.JPG");
+  background-size: 135%;
 }
 
 .projectscontainer .project:nth-child(6) {
@@ -406,6 +431,11 @@ footer .rights {
   background-size: 100%;
 }
 
+.projectscontainer .project4:nth-child(6) {
+  background-image: url("../img/inside6.JPG");
+  background-size: 100%;
+}
+
 .projectscontainer .project:nth-child(7) {
   background-image: url("../img/stairs1.jpg");
   background-size: 100%;
@@ -418,6 +448,11 @@ footer .rights {
 
 .projectscontainer .project3:nth-child(7) {
   background-image: url("../img/blackfrm.JPG");
+  background-size: 100%;
+}
+
+.projectscontainer .project4:nth-child(7) {
+  background-image: url("../img/sink2.JPG");
   background-size: 100%;
 }
 
@@ -596,10 +631,10 @@ footer .rights {
     padding: 100px;
     margin-bottom: 45px;
   }
-  .projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
+  .projectscontainer .allp {
     padding: 103px;
   }
-  .projectscontainer .project:nth-child(10), .projectscontainer .project2:nth-child(10), .projectscontainer .project3:nth-child(10) {
+  .projectscontainer .allp:nth-child(10) {
     display: none;
   }
   footer {
@@ -659,7 +694,7 @@ footer .rights {
   .snippet .snip {
     padding: 120px;
   }
-  .projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
+  .projectscontainer .allp {
     padding: 146px;
   }
   .contactbanner {
@@ -728,7 +763,7 @@ footer .rights {
   .projecttitle {
     font-size: 22px;
   }
-  .projectscontainer .project, .projectscontainer .project2, .projectscontainer .project3 {
+  .projectscontainer .allp {
     padding: 70px;
   }
   .contactsection .contactform form input, .contactsection .contactform form textarea {
